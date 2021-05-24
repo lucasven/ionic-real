@@ -28,6 +28,20 @@ export class PlacesService {
       'https://i.pinimg.com/originals/9c/88/44/9c8844b217bdb6c17db14f51ad2e51a5.jpg', 
       99.99
     ),
+    new Place(
+      'p4',
+      'The city nightmare',
+      'A place to be busy',
+      'https://i.pinimg.com/originals/65/c7/06/65c70636a4daa480b16ec6b147294608.jpg',
+      259.99
+    ),
+    new Place(
+      'p5',
+      'By the lake view',
+      'A beatiful place by the lake with an outstanding view',
+      'https://i.pinimg.com/originals/9e/ca/38/9eca38563bfdea8a7ce7326e21fc83b8.jpg',
+      179.99
+    )
   ];
 
   get places() {
